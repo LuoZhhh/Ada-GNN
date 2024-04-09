@@ -26,7 +26,19 @@ Run the following code to install all required packages.
 
 ## Datasets & Processed files
 
-- The datasets include Amazon and Arxiv, please download the dataset from the ***[google drive](https://drive.google.com/file/d/14zZN4CM8Am1ipJYQ9gcjtlcBmougODdS/view?usp=sharing)*** and replace the "dataset/" folder.
+- The datasets include Amazon and Arxiv, please download the dataset from the ***[google drive](https://drive.google.com/file/d/14zZN4CM8Am1ipJYQ9gcjtlcBmougODdS/view?usp=sharing)*** and save as the 'dataset/' folder.
+- Remember to create 'saved_model/' folder for saving the model. The full repository should be as follows:
+.
+├── dataloader.py
+├── dataset
+├── main.py
+├── model.py
+├── motivation.py
+├── partition.py
+├── readme.md
+├── requirements.txt
+├── saved_model
+└── utils.py
 
 ## About MAML
 The implementation of MAML is inspired from ***[this repository](https://github.com/learnables/learn2learn/tree/master)***.
