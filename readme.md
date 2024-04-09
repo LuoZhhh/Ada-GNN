@@ -44,7 +44,7 @@ Run the following code to install all required packages.
   ```
 
 ## About MAML
-The implementation of MAML is inspired from ***[this repository](https://github.com/learnables/learn2learn/tree/master)***.
+For the implementation of MAML, ***[this repository](https://github.com/learnables/learn2learn/tree/master)*** contains more details.
 
 ## Run the code
 For instance, to run Ada-GraphSAGE on Arxiv dataset, please use this command:
