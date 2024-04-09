@@ -46,6 +46,12 @@ Run the following code to install all required packages.
 ## About MAML
 The implementation of MAML is inspired from ***[this repository](https://github.com/learnables/learn2learn/tree/master)***.
 
+## Run the code
+For instance, to run Ada-GraphSAGE on Arxiv dataset, please use this command:
+`python main.py --data arxiv --model SAGE --num-parts 3 --num-steps 5`
+To run Ada-GraphSAGE-fair, please use this command:
+`python main.py --data arxiv --model SAGE --num-parts 3 --num-steps 5 --fairness`
+
 ## BibTeX
 
 If you like our work and use the model for your research, please cite our work as follows.

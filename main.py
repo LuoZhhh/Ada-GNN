@@ -146,7 +146,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Ada-GNN')
     parser.add_argument("--gpu", type=int, default=0,
             help="gpu")
-    parser.add_argument("--dataset", type=str, default='arxiv')
+    parser.add_argument("--dataset", type=str, default='arxiv', choices=["amazon", "arxiv"])
     parser.add_argument("--lr-global", type=float, default=0.005,
             help="global learning rate")
     parser.add_argument("--lr-adapt", type=float, default=0.005,
