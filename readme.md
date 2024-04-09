@@ -49,11 +49,11 @@ The implementation of MAML is inspired from ***[this repository](https://github.
 ## Run the code
 For instance, to run Ada-GraphSAGE on Arxiv dataset, please use this command:
 ```
-python main.py --data arxiv --model SAGE --num-parts 3 --num-steps 5
+python main.py --dataset arxiv --model SAGE --num-parts 3 --num-steps 5
 ```
 To run Ada-GraphSAGE-fair, please use this command:
 ```
-python main.py --data arxiv --model SAGE --num-parts 3 --num-steps 5 --fairness
+python main.py --dataset arxiv --model SAGE --num-parts 3 --num-steps 5 --fairness
 ```
 
 ## BibTeX
