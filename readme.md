@@ -26,7 +26,7 @@ Run the following code to install all required packages.
 
 ## Datasets & Processed files
 
-- The datasets include Amazon and Arxiv, please download the dataset from the ***[google drive](https://drive.google.com/file/d/14zZN4CM8Am1ipJYQ9gcjtlcBmougODdS/view?usp=sharing)*** and save as the `dataset/` folder.
+- The datasets include Amazon and Arxiv, please download the dataset from the ***[google drive](https://drive.google.com/file/d/14zZN4CM8Am1ipJYQ9gcjtlcBmougODdS/view?usp=sharing)*** and save to the `dataset/` folder.
 - Remember to create `saved_model/` folder for saving the model. The full repository should be as follows:
 
   ```
